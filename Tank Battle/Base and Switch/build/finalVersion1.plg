@@ -1,0 +1,2503 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Robert\Desktop\Fall 2013\ESE 519\Final Project\Code\finalVersion1\finalVersion1.uvproj
+Project File Date:  12/11/2013
+
+<h2>Output:</h2>
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(411): error:  #101: "pos" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos[8];
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(435): error:  #20: identifier "rx" is undefined
+..\..\..\..\..\code\beta3.cpp:       rx = xc-510;   //the camera resolution is 1024*768. so do this to get the origin.
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(436): error:  #20: identifier "ry" is undefined
+..\..\..\..\..\code\beta3.cpp:       ry = yc-384;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(437): error:  #20: identifier "r" is undefined
+..\..\..\..\..\code\beta3.cpp:       r = rx*rx + ry*ry;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(443): error:  #20: identifier "beta" is undefined
+..\..\..\..\..\code\beta3.cpp:       beta += 154*(3.14159265)/180
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(444): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       angle1 = angle2 - beta + PI;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(447): error:  #20: identifier "PI" is undefined
+..\..\..\..\..\code\beta3.cpp:       pos[2] = (-angle3+PI);
+..\..\..\..\..\code\beta3.cpp:                         ^
+..\..\..\..\..\code\beta3.cpp(412): warning:  #177-D: variable "d" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:          double d=0;
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(413): warning:  #177-D: variable "dx" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:          double dx=0;
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(414): warning:  #177-D: variable "dy" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:          double dy=0;
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(415): warning:  #177-D: variable "pos1x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1x = double(pos[0]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(416): warning:  #177-D: variable "pos1y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1y = double(pos[1]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(417): warning:  #177-D: variable "pos2x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2x = double(pos[2]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(418): warning:  #177-D: variable "pos2y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2y = double(pos[3]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(419): warning:  #177-D: variable "pos3x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3x = double(pos[4]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(420): warning:  #177-D: variable "pos3y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3y = double(pos[5]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(421): warning:  #177-D: variable "pos4x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4x = double(pos[6]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(422): warning:  #177-D: variable "pos4y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4y = double(pos[7]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(424): warning:  #550-D: variable "angle2" was set but never used
+..\..\..\..\..\code\beta3.cpp:       double angle2 = 0;  
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 15 warnings, 16 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(411): error:  #101: "pos" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos[8];
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(435): error:  #20: identifier "rx" is undefined
+..\..\..\..\..\code\beta3.cpp:       rx = xc-510;   //the camera resolution is 1024*768. so do this to get the origin.
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(436): error:  #20: identifier "ry" is undefined
+..\..\..\..\..\code\beta3.cpp:       ry = yc-384;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(437): error:  #20: identifier "r" is undefined
+..\..\..\..\..\code\beta3.cpp:       r = rx*rx + ry*ry;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(444): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       angle1 = angle2 - angle3 + 3.14159265;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(447): error:  #20: identifier "PI" is undefined
+..\..\..\..\..\code\beta3.cpp:       pos[2] = (-angle3+PI);
+..\..\..\..\..\code\beta3.cpp:                         ^
+..\..\..\..\..\code\beta3.cpp(412): warning:  #177-D: variable "d" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:          double d=0;
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(413): warning:  #177-D: variable "dx" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:          double dx=0;
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(414): warning:  #177-D: variable "dy" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:          double dy=0;
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(415): warning:  #177-D: variable "pos1x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1x = double(pos[0]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(416): warning:  #177-D: variable "pos1y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1y = double(pos[1]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(417): warning:  #177-D: variable "pos2x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2x = double(pos[2]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(418): warning:  #177-D: variable "pos2y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2y = double(pos[3]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(419): warning:  #177-D: variable "pos3x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3x = double(pos[4]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(420): warning:  #177-D: variable "pos3y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3y = double(pos[5]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(421): warning:  #177-D: variable "pos4x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4x = double(pos[6]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(422): warning:  #177-D: variable "pos4y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4y = double(pos[7]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(424): warning:  #550-D: variable "angle2" was set but never used
+..\..\..\..\..\code\beta3.cpp:       double angle2 = 0;  
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 15 warnings, 15 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(411): error:  #101: "pos" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos[8];
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(439): error:  #20: identifier "rx" is undefined
+..\..\..\..\..\code\beta3.cpp:       angle2  = atan2(rx, ry);
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(439): error:  #20: identifier "ry" is undefined
+..\..\..\..\..\code\beta3.cpp:       angle2  = atan2(rx, ry);
+..\..\..\..\..\code\beta3.cpp:                           ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(444): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       angle1 = angle2 - angle3 + 3.14159265;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(447): error:  #20: identifier "PI" is undefined
+..\..\..\..\..\code\beta3.cpp:       pos[2] = (-angle3+PI);
+..\..\..\..\..\code\beta3.cpp:                         ^
+..\..\..\..\..\code\beta3.cpp(415): warning:  #177-D: variable "pos1x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1x = double(pos[0]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(416): warning:  #177-D: variable "pos1y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1y = double(pos[1]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(417): warning:  #177-D: variable "pos2x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2x = double(pos[2]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(418): warning:  #177-D: variable "pos2y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2y = double(pos[3]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(419): warning:  #177-D: variable "pos3x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3x = double(pos[4]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(420): warning:  #177-D: variable "pos3y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3y = double(pos[5]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(421): warning:  #177-D: variable "pos4x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4x = double(pos[6]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(422): warning:  #177-D: variable "pos4y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4y = double(pos[7]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(424): warning:  #550-D: variable "angle2" was set but never used
+..\..\..\..\..\code\beta3.cpp:       double angle2 = 0;  
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 12 warnings, 14 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(411): error:  #101: "pos" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos[8];
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(427): error:  #20: identifier "LED1x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k12 = (LED2y - LED1y)/(LED2x - LED1x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3y" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED4x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                     ^
+..\..\..\..\..\code\beta3.cpp(428): error:  #20: identifier "LED3x" is undefined
+..\..\..\..\..\code\beta3.cpp:       double k34 = (LED4y - LED3y)/(LED4x - LED3x);
+..\..\..\..\..\code\beta3.cpp:                                             ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(444): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       angle1 = angle2 - angle3 + 3.14159265;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(447): error:  #20: identifier "PI" is undefined
+..\..\..\..\..\code\beta3.cpp:       pos[2] = (-angle3+PI);
+..\..\..\..\..\code\beta3.cpp:                         ^
+..\..\..\..\..\code\beta3.cpp(415): warning:  #177-D: variable "pos1x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1x = double(pos[0]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(416): warning:  #177-D: variable "pos1y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos1y = double(pos[1]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(417): warning:  #177-D: variable "pos2x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2x = double(pos[2]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(418): warning:  #177-D: variable "pos2y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos2y = double(pos[3]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(419): warning:  #177-D: variable "pos3x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3x = double(pos[4]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(420): warning:  #177-D: variable "pos3y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos3y = double(pos[5]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(421): warning:  #177-D: variable "pos4x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4x = double(pos[6]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(422): warning:  #177-D: variable "pos4y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       double pos4y = double(pos[7]);
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(424): warning:  #550-D: variable "angle2" was set but never used
+..\..\..\..\..\code\beta3.cpp:       double angle2 = 0;  
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 12 warnings, 12 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(411): error:  #101: "pos" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos[8];
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(444): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       angle1 = angle2 - angle3 + 3.14159265;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(447): error:  #20: identifier "PI" is undefined
+..\..\..\..\..\code\beta3.cpp:       pos[2] = (-angle3+PI);
+..\..\..\..\..\code\beta3.cpp:                         ^
+..\..\..\..\..\code\beta3.cpp(424): warning:  #550-D: variable "angle2" was set but never used
+..\..\..\..\..\code\beta3.cpp:       double angle2 = 0;  
+..\..\..\..\..\code\beta3.cpp:              ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 4 warnings, 4 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(411): error:  #101: "pos" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos[8];
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 2 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(434): error:  #167: argument of type "double *" is incompatible with parameter of type "int *"
+..\..\..\..\..\code\beta3.cpp:       load(data, pos);
+..\..\..\..\..\code\beta3.cpp:                  ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 2 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(442): error:  #308: more than one instance of overloaded function "atan2" matches the argument list:
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(double, double)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(float, float)"
+..\..\..\..\..\code\beta3.cpp:             function "std::atan2(long double, long double)"
+..\..\..\..\..\code\beta3.cpp:             argument types are: (int, int)
+..\..\..\..\..\code\beta3.cpp:       angle3 = atan2(betax, betay);
+..\..\..\..\..\code\beta3.cpp:                ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 1 error
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       int  //array storing the distances between each 2 points
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(326): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(344): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(362): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(380): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(396): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(246): warning:  #177-D: variable "pos1" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(493): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 4 warnings, 6 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(323): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(327): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(328): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(331): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(332): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(335): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(336): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(341): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(342): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(345): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(346): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(349): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(350): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(353): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(354): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(359): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(360): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(363): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(364): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(367): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(368): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(371): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(372): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(377): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(378): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(381): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(382): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(385): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 2 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(491): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos1x" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos1y" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                 ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos2x" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos2y" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                             ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos3x" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                                   ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos3y" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                                         ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos4x" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                                               ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "pos4y" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;  //Reasigned positions of LEDs (The relative position between LED1,2,3,4 should be fixed)
+..\..\..\..\..\code\beta3.cpp:                                                     ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos1x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                            ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos1y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                  ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos2x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                        ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos2y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                              ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos3x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                    ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos3y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                          ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos4x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                                ^
+..\..\..\..\..\code\beta3.cpp(243): warning:  #177-D: variable "pos4y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                                      ^
+..\..\..\..\..\code\beta3.cpp(491): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 11 warnings, 8 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(491): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(491): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos1x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                            ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos1y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                  ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos2x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                        ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos2y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                              ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos3x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                    ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos3y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                          ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos4x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                                ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos4y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                                      ^
+..\..\..\..\..\code\beta3.cpp(322): error:  #70: incomplete type is not allowed
+..\..\..\..\..\code\beta3.cpp:          void assign(score1,score2,score3,score4)
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(322): error:  #20: identifier "score1" is undefined
+..\..\..\..\..\code\beta3.cpp:          void assign(score1,score2,score3,score4)
+..\..\..\..\..\code\beta3.cpp:                      ^
+..\..\..\..\..\code\beta3.cpp(322): error:  #18: expected a ")"
+..\..\..\..\..\code\beta3.cpp:          void assign(score1,score2,score3,score4)
+..\..\..\..\..\code\beta3.cpp:                            ^
+..\..\..\..\..\code\beta3.cpp(323): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:          {
+..\..\..\..\..\code\beta3.cpp:          ^
+..\..\..\..\..\code\beta3.cpp(345): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:               pos1x = x2;
+..\..\..\..\..\code\beta3.cpp:                         ^
+..\..\..\..\..\code\beta3.cpp(346): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(346): error:  #20: identifier "y2" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(347): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(348): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:           case 1:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(350): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos2y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(351): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(352): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:           case 2:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(354): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos3y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(355): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(356): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:           case 3:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(358): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos4y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(359): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(360): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:       }
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(397): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:       position[0] = pos1x;
+..\..\..\..\..\code\beta3.cpp:                          ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #28: expression must have a constant value
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[3] = pos2y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[3] = pos2y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #28: expression must have a constant value
+..\..\..\..\..\code\beta3.cpp:       position[3] = pos2y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[4] = pos3x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[4] = pos3x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[4] = pos3x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(402): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[5] = pos3y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(402): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[5] = pos3y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 12 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos1x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                            ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos1y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                  ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos2x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                        ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos2y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                              ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos3x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                    ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos3y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                          ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos4x" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                                ^
+..\..\..\..\..\code\beta3.cpp(242): warning:  #177-D: variable "pos4y" was declared but never referenced
+..\..\..\..\..\code\beta3.cpp:           int x1,y1,x2,y2,x3,y3,x4,y4,dis[6],dismin,dismax,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y; 
+..\..\..\..\..\code\beta3.cpp:                                                                                                      ^
+..\..\..\..\..\code\beta3.cpp(322): error:  #70: incomplete type is not allowed
+..\..\..\..\..\code\beta3.cpp:          void assign(score1,score2,score3,score4){
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(322): error:  #20: identifier "score1" is undefined
+..\..\..\..\..\code\beta3.cpp:          void assign(score1,score2,score3,score4){
+..\..\..\..\..\code\beta3.cpp:                      ^
+..\..\..\..\..\code\beta3.cpp(322): error:  #18: expected a ")"
+..\..\..\..\..\code\beta3.cpp:          void assign(score1,score2,score3,score4){
+..\..\..\..\..\code\beta3.cpp:                            ^
+..\..\..\..\..\code\beta3.cpp(322): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:          void assign(score1,score2,score3,score4){
+..\..\..\..\..\code\beta3.cpp:                                                  ^
+..\..\..\..\..\code\beta3.cpp(344): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:               pos1x = x2;
+..\..\..\..\..\code\beta3.cpp:                         ^
+..\..\..\..\..\code\beta3.cpp(345): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(345): error:  #20: identifier "y2" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(346): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(347): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:           case 1:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(349): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos2y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(350): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(351): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:           case 2:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(353): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos3y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(354): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(355): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:           case 3:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(357): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:               pos4y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(358): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(359): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:       }
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(396): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:       position[0] = pos1x;
+..\..\..\..\..\code\beta3.cpp:                          ^
+..\..\..\..\..\code\beta3.cpp(397): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(397): error:  #28: expression must have a constant value
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[3] = pos2y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[3] = pos2y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #28: expression must have a constant value
+..\..\..\..\..\code\beta3.cpp:       position[3] = pos2y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[4] = pos3x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[4] = pos3x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[4] = pos3x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[5] = pos3y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[5] = pos3y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 12 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(492): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(30): error:  #247: variable "score2" has already been defined
+..\..\..\..\..\code\beta3.cpp:   int score1,score2,score2,score4;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(245): error:  #101: "score1" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score1 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(246): error:  #101: "score2" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score2 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(247): error:  #101: "score3" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score3 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(248): error:  #101: "score4" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score4 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(325): error:  #130: expected a "{"
+..\..\..\..\..\code\beta3.cpp:       switch (score1){
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(326): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 0:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(327): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(327): error:  #20: identifier "x1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(328): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(328): error:  #20: identifier "y1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 1:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(331): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(332): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(333): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(334): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 2:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(335): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(336): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(337): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(338): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 3:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(339): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(340): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(341): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(343): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:       switch (score2){
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(397): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:       position[0] = pos1x;
+..\..\..\..\..\code\beta3.cpp:                          ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(30): error:  #247: variable "score2" has already been defined
+..\..\..\..\..\code\beta3.cpp:   int score1,score2,score2,score4;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(245): error:  #101: "score1" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score1 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(246): error:  #101: "score2" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score2 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(247): error:  #101: "score3" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score3 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(248): error:  #101: "score4" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score4 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(326): error:  #130: expected a "{"
+..\..\..\..\..\code\beta3.cpp:    int x1,y1,x2,y2,x3,y3,x4,y4,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp(328): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 0:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "x1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "y1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(331): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(332): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 1:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(333): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(334): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(335): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(336): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 2:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(337): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(338): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(339): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(340): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 3:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(341): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(342): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(343): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(345): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:       switch (score2){
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:       position[0] = pos1x;
+..\..\..\..\..\code\beta3.cpp:                          ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #247: variable "position" has already been defined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(30): error:  #247: variable "score2" has already been defined
+..\..\..\..\..\code\beta3.cpp:   int score1,score2,score2,score4;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(245): error:  #101: "score1" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score1 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(246): error:  #101: "score2" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score2 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(247): error:  #101: "score3" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score3 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(248): error:  #101: "score4" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score4 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #757: variable "score1" is not a type name
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                  ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #757: variable "score2" is not a type name
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                          ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                                   ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #20: identifier "socer4" is undefined
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                                            ^
+..\..\..\..\..\code\beta3.cpp(326): error:  #130: expected a "{"
+..\..\..\..\..\code\beta3.cpp:    int x1,y1,x2,y2,x3,y3,x4,y4,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp(328): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 0:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "x1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "y1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(331): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(332): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 1:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(333): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(334): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(335): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(336): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 2:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(337): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(338): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(339): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(340): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 3:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(341): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(342): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(343): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(345): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:       switch (score2){
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:       position[0] = pos1x;
+..\..\..\..\..\code\beta3.cpp:                          ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(30): error:  #247: variable "score2" has already been defined
+..\..\..\..\..\code\beta3.cpp:   int score1,score2,score2,score4;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(245): error:  #101: "score1" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score1 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(246): error:  #101: "score2" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score2 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(247): error:  #101: "score3" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score3 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(248): error:  #101: "score4" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score4 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #757: variable "score1" is not a type name
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                  ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #757: variable "score2" is not a type name
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                          ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                                   ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #20: identifier "socer4" is undefined
+..\..\..\..\..\code\beta3.cpp:    void arrange(int position[8], score1, score2,  score3,  socer4)
+..\..\..\..\..\code\beta3.cpp:                                                            ^
+..\..\..\..\..\code\beta3.cpp(326): error:  #130: expected a "{"
+..\..\..\..\..\code\beta3.cpp:    int x1,y1,x2,y2,x3,y3,x4,y4,pos1x,pos1y,pos2x,pos2y,pos3x,pos3y,pos4x,pos4y;
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp(328): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 0:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "x1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "y1" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:                       ^
+..\..\..\..\..\code\beta3.cpp(331): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(332): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 1:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(333): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(334): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(335): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(336): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 2:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(337): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(338): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(339): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(340): error:  #121: a case label may only be used within a switch
+..\..\..\..\..\code\beta3.cpp:           case 3:
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(341): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(342): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(343): error:  #116: a break statement may only be used within a loop or switch
+..\..\..\..\..\code\beta3.cpp:               break;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(345): error:  #169: expected a declaration
+..\..\..\..\..\code\beta3.cpp:       switch (score2){
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(399): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:       position[0] = pos1x;
+..\..\..\..\..\code\beta3.cpp:                          ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(244): error:  #101: "score1" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score1 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(245): error:  #101: "score2" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score2 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(246): error:  #101: "score3" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score3 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(247): error:  #101: "score4" has already been declared in the current scope
+..\..\..\..\..\code\beta3.cpp:       int score4 = 0;
+..\..\..\..\..\code\beta3.cpp:           ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #65: expected a ";"
+..\..\..\..\..\code\beta3.cpp:       switch (score1){
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(396): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\..\..\code\beta3.cpp:       position[0] = pos1x;
+..\..\..\..\..\code\beta3.cpp:                          ^
+..\..\..\..\..\code\beta3.cpp(397): error:  #20: identifier "position" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:       ^
+..\..\..\..\..\code\beta3.cpp(397): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[1] = pos1y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(398): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[2] = pos2x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(399): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[3] = pos2y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(400): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[4] = pos3x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(401): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[5] = pos3y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(402): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[6] = pos4x;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(403): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:       position[7] = pos4y;
+..\..\..\..\..\code\beta3.cpp:                     ^
+..\..\..\..\..\code\beta3.cpp(435): error:  #167: argument of type "int *" is incompatible with parameter of type "int"
+..\..\..\..\..\code\beta3.cpp:       load(data, posi);
+..\..\..\..\..\code\beta3.cpp:                  ^
+..\..\..\..\..\code\beta3.cpp(435): error:  #165: too few arguments in function call
+..\..\..\..\..\code\beta3.cpp:       load(data, posi);
+..\..\..\..\..\code\beta3.cpp:                      ^
+..\..\..\..\..\code\beta3.cpp(494): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 4 warnings, 15 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(326): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(327): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(331): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(334): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(335): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(338): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(339): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(344): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(345): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(348): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(349): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(352): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(353): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(356): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(357): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(362): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(363): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(366): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(367): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(370): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(371): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(374): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(375): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(380): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(381): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(384): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(385): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(388): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(389): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 2 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(325): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(326): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(330): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(333): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(334): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(337): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(338): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(343): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(344): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(347): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(348): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(351): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(352): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(355): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(356): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(361): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(362): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(365): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(366): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(369): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(370): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(373): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(374): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(379): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(380): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(383): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(384): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(387): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(388): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 2 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(324): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(325): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(328): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(329): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(332): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(333): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(336): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(337): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y1;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(342): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(343): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(346): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(347): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(350): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(351): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(354): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(355): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y2;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(360): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(361): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(364): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(365): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(368): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(369): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(372): error:  #20: identifier "pos4x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4x = x3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(373): error:  #20: identifier "pos4y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos4y = y3;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(378): error:  #20: identifier "pos1x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(379): error:  #20: identifier "pos1y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos1y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(382): error:  #20: identifier "pos2x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(383): error:  #20: identifier "pos2y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos2y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(386): error:  #20: identifier "pos3x" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3x = x4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp(387): error:  #20: identifier "pos3y" is undefined
+..\..\..\..\..\code\beta3.cpp:               pos3y = y4;
+..\..\..\..\..\code\beta3.cpp:               ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 2 warnings, 30 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(492): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(483): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta3.cpp(495): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta3.cpp:   }
+..\..\..\..\..\code\beta3.cpp:    ^
+..\..\..\..\..\code\beta3.cpp: ..\..\..\..\..\code\beta3.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31142 RO-data=2470 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(700): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+.\build\finalVersion1.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol myled multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol mrf multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol txBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol tank multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Fire multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol pc multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol life multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rotate multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol active multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol status multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADClight1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADClight2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADClight3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADClight4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxLen multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol servo multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_receive(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_send(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol calibrate() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c_write2(int, char, char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol clock_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol cam_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol read_data(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol distance(int, int, int, int) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol minimum(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol maximum(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol load(int*, int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Locate(double*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol $Super$$main multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Not enough information to list image symbols.
+.\build\finalVersion1.axf: Not enough information to list the image map.
+.\build\finalVersion1.axf: Finished: 2 information, 0 warning and 50 error messages.
+Target not created
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(689): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(675): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(244): error:  #40: expected an identifier
+..\..\..\..\..\code\beta1.cpp:       int score1 = 0,int score2 = 0,int score3 = 0,int score4 = 0;
+..\..\..\..\..\code\beta1.cpp:                      ^
+..\..\..\..\..\code\beta1.cpp(244): error:  #40: expected an identifier
+..\..\..\..\..\code\beta1.cpp:       int score1 = 0,int score2 = 0,int score3 = 0,int score4 = 0;
+..\..\..\..\..\code\beta1.cpp:                                     ^
+..\..\..\..\..\code\beta1.cpp(244): error:  #40: expected an identifier
+..\..\..\..\..\code\beta1.cpp:       int score1 = 0,int score2 = 0,int score3 = 0,int score4 = 0;
+..\..\..\..\..\code\beta1.cpp:                                                    ^
+..\..\..\..\..\code\beta1.cpp(274): error:  #20: identifier "score2" is undefined
+..\..\..\..\..\code\beta1.cpp:           score2 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(278): error:  #20: identifier "score2" is undefined
+..\..\..\..\..\code\beta1.cpp:           score2 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(282): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta1.cpp:           score3 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(286): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta1.cpp:           score3 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(290): error:  #20: identifier "score4" is undefined
+..\..\..\..\..\code\beta1.cpp:           score4 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(294): error:  #20: identifier "score4" is undefined
+..\..\..\..\..\code\beta1.cpp:           score4 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(297): error:  #20: identifier "score2" is undefined
+..\..\..\..\..\code\beta1.cpp:           score2 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(298): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta1.cpp:           score3 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(301): error:  #20: identifier "score2" is undefined
+..\..\..\..\..\code\beta1.cpp:           score2 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(302): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta1.cpp:           score3 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(305): error:  #20: identifier "score4" is undefined
+..\..\..\..\..\code\beta1.cpp:           score4 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(306): error:  #20: identifier "score2" is undefined
+..\..\..\..\..\code\beta1.cpp:           score2 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(309): error:  #20: identifier "score4" is undefined
+..\..\..\..\..\code\beta1.cpp:           score4 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(310): error:  #20: identifier "score2" is undefined
+..\..\..\..\..\code\beta1.cpp:           score2 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(313): error:  #20: identifier "score4" is undefined
+..\..\..\..\..\code\beta1.cpp:           score4 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(314): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta1.cpp:           score3 += 1;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(317): error:  #20: identifier "score4" is undefined
+..\..\..\..\..\code\beta1.cpp:           score4 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(318): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta1.cpp:           score3 += 2;
+..\..\..\..\..\code\beta1.cpp:           ^
+..\..\..\..\..\code\beta1.cpp(353): error:  #20: identifier "score2" is undefined
+..\..\..\..\..\code\beta1.cpp:       switch (score2){
+..\..\..\..\..\code\beta1.cpp:               ^
+..\..\..\..\..\code\beta1.cpp(371): error:  #20: identifier "score3" is undefined
+..\..\..\..\..\code\beta1.cpp:       switch (score3){
+..\..\..\..\..\code\beta1.cpp:               ^
+..\..\..\..\..\code\beta1.cpp(389): error:  #20: identifier "score4" is undefined
+..\..\..\..\..\code\beta1.cpp:       switch (score4){
+..\..\..\..\..\code\beta1.cpp:               ^
+..\..\..\..\..\code\beta1.cpp(678): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 24 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(681): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(679): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(675): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(674): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31538 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(672): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31530 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(672): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31530 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(672): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31450 RO-data=2474 RW-data=188 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta3.cpp(490): error:  #20: identifier "ADCLight1" is undefined
+beta3.cpp:              ADCLight1=AinLight1;
+beta3.cpp:              ^
+beta3.cpp(491): error:  #20: identifier "ADCLight2" is undefined
+beta3.cpp:              ADCLight2=AinLight2;
+beta3.cpp:              ^
+beta3.cpp(492): error:  #20: identifier "ADCLight3" is undefined
+beta3.cpp:              ADCLight3=AinLight3;
+beta3.cpp:              ^
+beta3.cpp(493): error:  #20: identifier "ADCLight4" is undefined
+beta3.cpp:              ADCLight4=AinLight4;
+beta3.cpp:              ^
+beta3.cpp(498): error:  #20: identifier "cnt" is undefined
+beta3.cpp:              cnt++;
+beta3.cpp:              ^
+beta3.cpp(500): error:  #20: identifier "cnt" is undefined
+beta3.cpp:              cnt=0;}
+beta3.cpp:              ^
+beta3.cpp(502): error:  #20: identifier "cnt" is undefined
+beta3.cpp:              if(cnt>3){
+beta3.cpp:                 ^
+beta3.cpp(529): error:  #20: identifier "load_led_position" is undefined
+beta3.cpp:      load_led_position(cam, LED);
+beta3.cpp:      ^
+beta3.cpp(747): error:  #20: identifier "tok0" is undefined
+beta3.cpp:                                      tok0=1;
+beta3.cpp:                                      ^
+beta3.cpp(752): error:  #20: identifier "tok0" is undefined
+beta3.cpp:                      if(tok0==1)
+beta3.cpp:                         ^
+beta3.cpp(777): error:  #20: identifier "tok1" is undefined
+beta3.cpp:                                                       tok1=1;
+beta3.cpp:                                                       ^
+beta3.cpp(795): error:  #20: identifier "tok1" is undefined
+beta3.cpp:                      if(tok1==1)
+beta3.cpp:                         ^
+beta3.cpp(804): error:  #20: identifier "tok2" is undefined
+beta3.cpp:                              tok2=1;
+beta3.cpp:                              ^
+beta3.cpp(808): error:  #20: identifier "tok2" is undefined
+beta3.cpp:                      if(tok2==1)
+beta3.cpp:                         ^
+beta3.cpp(818): error:  #20: identifier "tok3" is undefined
+beta3.cpp:                                      tok3=1;
+beta3.cpp:                                      ^
+beta3.cpp(823): error:  #20: identifier "tok3" is undefined
+beta3.cpp:                      if(tok3==1)
+beta3.cpp:                         ^
+beta3.cpp(834): error:  #20: identifier "tok4" is undefined
+beta3.cpp:                                tok4=1;
+beta3.cpp:                                ^
+beta3.cpp(838): error:  #20: identifier "tok4" is undefined
+beta3.cpp:                      if(tok4==1)
+beta3.cpp:                         ^
+beta3.cpp(863): warning:  #1-D: last line of file ends without a newline
+beta3.cpp:   }
+beta3.cpp:    ^
+beta3.cpp: beta3.cpp: 3 warnings, 18 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta3.cpp(490): error:  #20: identifier "ADCLight1" is undefined
+beta3.cpp:              ADCLight1=AinLight1;
+beta3.cpp:              ^
+beta3.cpp(491): error:  #20: identifier "ADCLight2" is undefined
+beta3.cpp:              ADCLight2=AinLight2;
+beta3.cpp:              ^
+beta3.cpp(492): error:  #20: identifier "ADCLight3" is undefined
+beta3.cpp:              ADCLight3=AinLight3;
+beta3.cpp:              ^
+beta3.cpp(493): error:  #20: identifier "ADCLight4" is undefined
+beta3.cpp:              ADCLight4=AinLight4;
+beta3.cpp:              ^
+beta3.cpp(498): error:  #20: identifier "cnt" is undefined
+beta3.cpp:              cnt++;
+beta3.cpp:              ^
+beta3.cpp(500): error:  #20: identifier "cnt" is undefined
+beta3.cpp:              cnt=0;}
+beta3.cpp:              ^
+beta3.cpp(502): error:  #20: identifier "cnt" is undefined
+beta3.cpp:              if(cnt>3){
+beta3.cpp:                 ^
+beta3.cpp(747): error:  #20: identifier "tok0" is undefined
+beta3.cpp:                                      tok0=1;
+beta3.cpp:                                      ^
+beta3.cpp(752): error:  #20: identifier "tok0" is undefined
+beta3.cpp:                      if(tok0==1)
+beta3.cpp:                         ^
+beta3.cpp(777): error:  #20: identifier "tok1" is undefined
+beta3.cpp:                                                       tok1=1;
+beta3.cpp:                                                       ^
+beta3.cpp(795): error:  #20: identifier "tok1" is undefined
+beta3.cpp:                      if(tok1==1)
+beta3.cpp:                         ^
+beta3.cpp(804): error:  #20: identifier "tok2" is undefined
+beta3.cpp:                              tok2=1;
+beta3.cpp:                              ^
+beta3.cpp(808): error:  #20: identifier "tok2" is undefined
+beta3.cpp:                      if(tok2==1)
+beta3.cpp:                         ^
+beta3.cpp(818): error:  #20: identifier "tok3" is undefined
+beta3.cpp:                                      tok3=1;
+beta3.cpp:                                      ^
+beta3.cpp(823): error:  #20: identifier "tok3" is undefined
+beta3.cpp:                      if(tok3==1)
+beta3.cpp:                         ^
+beta3.cpp(834): error:  #20: identifier "tok4" is undefined
+beta3.cpp:                                tok4=1;
+beta3.cpp:                                ^
+beta3.cpp(838): error:  #20: identifier "tok4" is undefined
+beta3.cpp:                      if(tok4==1)
+beta3.cpp:                         ^
+beta3.cpp(863): warning:  #1-D: last line of file ends without a newline
+beta3.cpp:   }
+beta3.cpp:    ^
+beta3.cpp: beta3.cpp: 3 warnings, 17 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta3.cpp(945): warning:  #1-D: last line of file ends without a newline
+beta3.cpp:   }
+beta3.cpp:    ^
+beta3.cpp: beta3.cpp: 3 warnings, 0 errors
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\..\..\..\..\code\beta1.cpp(670): warning:  #1-D: last line of file ends without a newline
+..\..\..\..\..\code\beta1.cpp:   }
+..\..\..\..\..\code\beta1.cpp:    ^
+..\..\..\..\..\code\beta1.cpp: ..\..\..\..\..\code\beta1.cpp: 3 warnings, 0 errors
+linking...
+.\build\finalVersion1.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol myled multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol mrf multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol txBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol tank multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Fire multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol pc multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol life multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rotate multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol active multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol status multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxLen multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol servo multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_receive(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_send(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol calibrate() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c_write2(int, char, char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol clock_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol cam_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol read_data(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Locate(double*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol $Super$$main multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Not enough information to list image symbols.
+.\build\finalVersion1.axf: Not enough information to list the image map.
+.\build\finalVersion1.axf: Finished: 2 information, 0 warning and 42 error messages.
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta3.cpp(467): error:  #20: identifier "load_led_position" is undefined
+beta3.cpp:      load_led_position(cam, LED);
+beta3.cpp:      ^
+beta3.cpp(600): error:  #20: identifier "load_led_position" is undefined
+beta3.cpp:      load_led_position(cam, LED);
+beta3.cpp:      ^
+beta3.cpp(934): warning:  #1-D: last line of file ends without a newline
+beta3.cpp:   }
+beta3.cpp:    ^
+beta3.cpp: beta3.cpp: 3 warnings, 2 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta3.cpp(467): error:  #20: identifier "load_led_position" is undefined
+beta3.cpp:      load_led_position(cam, LED);
+beta3.cpp:      ^
+beta3.cpp(934): warning:  #1-D: last line of file ends without a newline
+beta3.cpp:   }
+beta3.cpp:    ^
+beta3.cpp: beta3.cpp: 3 warnings, 1 error
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta3.cpp(934): warning:  #1-D: last line of file ends without a newline
+beta3.cpp:   }
+beta3.cpp:    ^
+beta3.cpp: beta3.cpp: 3 warnings, 0 errors
+linking...
+.\build\finalVersion1.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol myled multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol mrf multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol txBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol tank multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Fire multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol pc multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol life multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rotate multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol active multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol status multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxLen multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol servo multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_receive(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_send(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol calibrate() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c_write2(int, char, char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol clock_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol cam_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol read_data(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol distance(int, int, int, int) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol min(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol max(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol load(int*, int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Locate(double*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol $Super$$main multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Not enough information to list image symbols.
+.\build\finalVersion1.axf: Not enough information to list the image map.
+.\build\finalVersion1.axf: Finished: 2 information, 0 warning and 46 error messages.
+Target not created
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=32966 RO-data=2470 RW-data=216 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 0 Warning(s).

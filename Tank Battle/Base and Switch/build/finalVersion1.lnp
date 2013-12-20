@@ -1,0 +1,18 @@
+--cpu Cortex-M3 ".\build\mrf24j40.o" ".\build\m3pi.o" ".\build\beta3.o" --strict --scatter "mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/LPC1768.sct" 
+
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/sys.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/cmsis_nvic.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/system_LPC17xx.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/startup_LPC17xx.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/retarget.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/mbed.ar
+            
+            --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\build\finalVersion1.map" -o ".\build\finalVersion1.axf"
