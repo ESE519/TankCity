@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Robert\Desktop\UserTank\m3pi_HelloWorld_copy\m3pi_HelloWorld_copy.uvproj
+Project File Date:  12/05/2013
+
+<h2>Output:</h2>
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+main.cpp(49): warning:  #1-D: last line of file ends without a newline
+main.cpp:   }
+main.cpp:    ^
+main.cpp: main.cpp: 2 warnings, 0 errors
+compiling m3pi.cpp...
+m3pi/m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi/m3pi.h:   #endif
+m3pi/m3pi.h:         ^
+m3pi/m3pi.h: m3pi/m3pi.cpp: 1 warning, 0 errors
+linking...
+Program Size: Code=30012 RO-data=2464 RW-data=256 ZI-data=688  
+User command #2: fromelf --bin -o E:\m3pi_HelloWorld_copy.bin .\build\m3pi_HelloWorld_copy.axf
+Error: Q0108E: Could not create output file 'E:\m3pi_HelloWorld_copy.bin': Permission denied
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\m3pi_HelloWorld_copy.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+main.cpp(45): warning:  #1-D: last line of file ends without a newline
+main.cpp:   }
+main.cpp:    ^
+main.cpp: main.cpp: 2 warnings, 0 errors
+linking...
+Program Size: Code=29932 RO-data=2464 RW-data=240 ZI-data=688  
+User command #2: fromelf --bin -o E:\m3pi_HelloWorld_copy.bin .\build\m3pi_HelloWorld_copy.axf
+Error: Q0108E: Could not create output file 'E:\m3pi_HelloWorld_copy.bin': Permission denied
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\m3pi_HelloWorld_copy.axf" - 0 Error(s), 2 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+main.cpp(42): warning:  #1-D: last line of file ends without a newline
+main.cpp:   }
+main.cpp:    ^
+main.cpp: main.cpp: 2 warnings, 0 errors
+linking...
+Program Size: Code=29932 RO-data=2464 RW-data=240 ZI-data=688  
+User command #2: fromelf --bin -o E:\m3pi_HelloWorld_copy.bin .\build\m3pi_HelloWorld_copy.axf
+Error: Q0108E: Could not create output file 'E:\m3pi_HelloWorld_copy.bin': Permission denied
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\m3pi_HelloWorld_copy.axf" - 0 Error(s), 2 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+main.cpp(42): warning:  #1-D: last line of file ends without a newline
+main.cpp:   }
+main.cpp:    ^
+main.cpp: main.cpp: 2 warnings, 0 errors
+linking...
+Program Size: Code=29860 RO-data=2464 RW-data=240 ZI-data=688  
+User command #2: fromelf --bin -o E:\m3pi_HelloWorld_copy.bin .\build\m3pi_HelloWorld_copy.axf
+Error: Q0108E: Could not create output file 'E:\m3pi_HelloWorld_copy.bin': Permission denied
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\m3pi_HelloWorld_copy.axf" - 0 Error(s), 2 Warning(s).
