@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Robert\Desktop\Tank Battle\Tank2\finalVersion1.uvproj
+Project File Date:  12/11/2013
+
+<h2>Output:</h2>
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta1.cpp(494): error:  #20: identifier "ADCLight1" is undefined
+beta1.cpp:                      ADCLight1=AinLight1;
+beta1.cpp:                      ^
+beta1.cpp(495): error:  #20: identifier "ADCLight2" is undefined
+beta1.cpp:              ADCLight2=AinLight2;
+beta1.cpp:              ^
+beta1.cpp(496): error:  #20: identifier "ADCLight3" is undefined
+beta1.cpp:              ADCLight3=AinLight3;
+beta1.cpp:              ^
+beta1.cpp(497): error:  #20: identifier "ADCLight4" is undefined
+beta1.cpp:              ADCLight4=AinLight4;
+beta1.cpp:              ^
+beta1.cpp(501): error:  #20: identifier "cnt" is undefined
+beta1.cpp:              cnt++;
+beta1.cpp:              ^
+beta1.cpp(503): error:  #20: identifier "cnt" is undefined
+beta1.cpp:              cnt=0;}
+beta1.cpp:              ^
+beta1.cpp(505): error:  #20: identifier "cnt" is undefined
+beta1.cpp:              if(cnt>3){
+beta1.cpp:                 ^
+beta1.cpp(706): warning:  #1-D: last line of file ends without a newline
+beta1.cpp:   }
+beta1.cpp:    ^
+beta1.cpp: beta1.cpp: 3 warnings, 7 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta1.cpp(495): error:  #20: identifier "ADCLight1" is undefined
+beta1.cpp:                      ADCLight1=AinLight1;
+beta1.cpp:                      ^
+beta1.cpp(496): error:  #20: identifier "ADCLight2" is undefined
+beta1.cpp:              ADCLight2=AinLight2;
+beta1.cpp:              ^
+beta1.cpp(497): error:  #20: identifier "ADCLight3" is undefined
+beta1.cpp:              ADCLight3=AinLight3;
+beta1.cpp:              ^
+beta1.cpp(498): error:  #20: identifier "ADCLight4" is undefined
+beta1.cpp:              ADCLight4=AinLight4;
+beta1.cpp:              ^
+beta1.cpp(707): warning:  #1-D: last line of file ends without a newline
+beta1.cpp:   }
+beta1.cpp:    ^
+beta1.cpp: beta1.cpp: 3 warnings, 4 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta1.cpp(500): error:  #20: identifier "ADCLight1" is undefined
+beta1.cpp:              if(ADCLight1>0.57 | ADCLight2>0.57 | ADCLight3>0.57 | ADCLight4>0.57)
+beta1.cpp:                 ^
+beta1.cpp(500): error:  #20: identifier "ADCLight2" is undefined
+beta1.cpp:              if(ADCLight1>0.57 | ADCLight2>0.57 | ADCLight3>0.57 | ADCLight4>0.57)
+beta1.cpp:                                  ^
+beta1.cpp(500): error:  #20: identifier "ADCLight3" is undefined
+beta1.cpp:              if(ADCLight1>0.57 | ADCLight2>0.57 | ADCLight3>0.57 | ADCLight4>0.57)
+beta1.cpp:                                                   ^
+beta1.cpp(500): error:  #20: identifier "ADCLight4" is undefined
+beta1.cpp:              if(ADCLight1>0.57 | ADCLight2>0.57 | ADCLight3>0.57 | ADCLight4>0.57)
+beta1.cpp:                                                                    ^
+beta1.cpp(707): warning:  #1-D: last line of file ends without a newline
+beta1.cpp:   }
+beta1.cpp:    ^
+beta1.cpp: beta1.cpp: 3 warnings, 4 errors
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta1.cpp(707): warning:  #1-D: last line of file ends without a newline
+beta1.cpp:   }
+beta1.cpp:    ^
+beta1.cpp: beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31898 RO-data=2474 RW-data=196 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling MRF24J40.cpp...
+MRF24J40/MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40/MRF24J40.h:   #endif
+MRF24J40/MRF24J40.h:         ^
+MRF24J40/MRF24J40.cpp(171): warning:  #550-D: variable "lqi" was set but never used
+MRF24J40/MRF24J40.cpp:     uint8_t lqi, rssi;
+MRF24J40/MRF24J40.cpp:             ^
+MRF24J40/MRF24J40.cpp(171): warning:  #550-D: variable "rssi" was set but never used
+MRF24J40/MRF24J40.cpp:     uint8_t lqi, rssi;
+MRF24J40/MRF24J40.cpp:                  ^
+MRF24J40/MRF24J40.cpp: MRF24J40/MRF24J40.cpp: 3 warnings, 0 errors
+compiling m3pi.cpp...
+m3pi/m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi/m3pi.h:   #endif
+m3pi/m3pi.h:         ^
+m3pi/m3pi.h: m3pi/m3pi.cpp: 1 warning, 0 errors
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta1.cpp(730): warning:  #1-D: last line of file ends without a newline
+beta1.cpp:   }
+beta1.cpp:    ^
+beta1.cpp: beta1.cpp: 3 warnings, 0 errors
+linking...
+Program Size: Code=31994 RO-data=2474 RW-data=200 ZI-data=1036  
+User command #1: fromelf --bin -o J:\finalVersion1.bin .\build\finalVersion1.axf
+Error: Q0108E: Could not create output file 'J:\finalVersion1.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\finalVersion1.axf" - 0 Error(s), 7 Warning(s).
