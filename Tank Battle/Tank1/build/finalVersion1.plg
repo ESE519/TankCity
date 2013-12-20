@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Robert\Desktop\Tank Battle\Tank1\finalVersion1.uvproj
+Project File Date:  12/19/2013
+
+<h2>Output:</h2>
+Build target 'mbed NXP LPC1768'
+compiling beta3.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+beta3.cpp(961): warning:  #1-D: last line of file ends without a newline
+beta3.cpp:   }
+beta3.cpp:    ^
+beta3.cpp: beta3.cpp: 3 warnings, 0 errors
+compiling beta1.cpp...
+m3pi\m3pi.h(236): warning:  #1-D: last line of file ends without a newline
+m3pi\m3pi.h:   #endif
+m3pi\m3pi.h:         ^
+MRF24J40\MRF24J40.h(167): warning:  #1-D: last line of file ends without a newline
+MRF24J40\MRF24J40.h:   #endif
+MRF24J40\MRF24J40.h:         ^
+..\Tank2\beta1.cpp(731): warning:  #1-D: last line of file ends without a newline
+..\Tank2\beta1.cpp:   }
+..\Tank2\beta1.cpp:    ^
+..\Tank2\beta1.cpp: ..\Tank2\beta1.cpp: 3 warnings, 0 errors
+linking...
+.\build\finalVersion1.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol myled multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Life2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol mrf multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol txBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxBuffer multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol tank multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Fire multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol pc multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol life multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol cnt multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rotate multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol active multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol status multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky0 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okx3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol oky2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol okt4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol AinLight4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADCLight1 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADCLight2 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADCLight3 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol ADCLight4 multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rxLen multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol servo multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_receive(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol rf_send(char*, unsigned char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol calibrate() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol i2c_write2(int, char, char) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol clock_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol cam_init() multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol read_data(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol distance(int, int, int, int) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol min(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol max(int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol load(int*, int*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol Locate(double*) multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Error: L6200E: Symbol $Super$$main multiply defined (by beta1.o and beta3.o).
+.\build\finalVersion1.axf: Not enough information to list image symbols.
+.\build\finalVersion1.axf: Not enough information to list the image map.
+.\build\finalVersion1.axf: Finished: 2 information, 0 warning and 51 error messages.
+Target not created
