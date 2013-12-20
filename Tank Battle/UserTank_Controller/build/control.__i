@@ -1,0 +1,1 @@
+--cpp -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I.\mbed -I.\mbed\LPC1768 -I "D:\Program\Keil\ARM\INC" -I "D:\Program\Keil\ARM\INC\NXP\LPC17xx" -DTARGET_LPC1768 -o ".\build\control.o" --omf_browse ".\build\control.crf" --depend ".\build\control.d" "control.cpp"

@@ -1,0 +1,1 @@
+--cpp -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I.\mbed -I.\mbed\LPC1768 -I "D:\Program\Keil\ARM\INC" -I "D:\Program\Keil\ARM\INC\NXP\LPC17xx" -DTARGET_LPC1768 -o ".\build\nrk_driver.o" --omf_browse ".\build\nrk_driver.crf" --depend ".\build\nrk_driver.d" "mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_driver.cpp"

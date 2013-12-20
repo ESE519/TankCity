@@ -1,0 +1,1 @@
+--cpp -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I.\mbed -I.\mbed\LPC1768 -I "D:\Program\Keil\ARM\INC" -I "D:\Program\Keil\ARM\INC\NXP\LPC17xx" -DTARGET_LPC1768 -o ".\build\ff_basic_sensor.o" --omf_browse ".\build\ff_basic_sensor.crf" --depend ".\build\ff_basic_sensor.d" "mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp"
